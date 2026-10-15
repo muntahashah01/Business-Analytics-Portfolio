@@ -1,0 +1,87 @@
+ONLINE RETAIL BUSINESS ANALYSIS
+Business Insights Report
+
+1. PROJECT OVERVIEW
+
+This project analyses online retail transaction data from December 2010
+to December 2011. The objective is to understand sales performance,
+product performance, and international markets using Python and pandas.
+
+2. DATA PREPARATION
+
+The original dataset contained 541,909 rows.
+The cleaned analytical dataset contains 524,878 rows.
+
+The preparation process removed exact duplicate rows, cancelled invoices,
+non-positive quantities, and non-positive unit prices. A Revenue column
+was calculated as Quantity multiplied by UnitPrice.
+
+These are analytical cleaning rules. Excluded records may include returns,
+adjustments, or other non-standard transactions.
+
+3. OVERALL BUSINESS PERFORMANCE
+
+Total sales value: £10,642,110.80
+Total quantity sold: 5,572,420
+Unique invoices: 19,960
+Average sales value per invoice: £533.17
+
+Sales value represents transaction revenue in the cleaned dataset.
+It should not be interpreted as profit.
+
+4. MONTHLY SALES PERFORMANCE
+
+The highest-sales month in the dataset was 2011-11,
+with sales of £1,503,866.78 across
+2,769 invoices.
+
+November 2011 was the strongest full month by sales.
+December 2011 is incomplete because the dataset ends on 9 December 2011,
+so it should not be compared directly with full months.
+
+5. PRODUCT PERFORMANCE
+
+The leading product in the merchandise ranking was
+REGENCY CAKESTAND 3 TIER, with recorded sales of
+£174,156.54.
+
+Product rankings should be interpreted carefully. Some stock codes
+may represent postage, manual entries, or other special charges rather
+than ordinary merchandise.
+
+The product "PAPER CRAFT , LITTLE BIRDIE" recorded an unusually large
+quantity in a single transaction. This record was retained but flagged
+for further investigation rather than assumed to be an error.
+
+6. INTERNATIONAL MARKETS
+
+The leading market outside the United Kingdom was
+Netherlands, with sales of
+£285,446.34.
+
+The United Kingdom accounts for approximately 84.6% of cleaned sales
+value, indicating that sales in this dataset are heavily concentrated
+in the domestic market.
+
+7. DATA LIMITATIONS
+
+- CustomerID is missing from approximately 25.18%
+  of the cleaned transaction rows. Customer-level findings may therefore
+  be incomplete.
+- The dataset covers a limited period and should not be treated as
+  evidence of current retail performance.
+- The analysis excludes cancelled invoices and non-positive transaction
+  quantities and prices.
+- Sales value is not the same as profit because product costs and other
+  operating expenses are not available.
+- Unusual records require business validation before any operational
+  decisions are made.
+
+8. CONCLUSION
+
+The analysis establishes a baseline view of sales, invoice activity,
+product performance, and international markets. The strongest next steps
+are to investigate unusual transactions, assess customer data coverage,
+and build an interactive dashboard to make the findings easier to explore.
+
+Report generated from the cleaned analytical dataset.
