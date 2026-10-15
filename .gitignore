@@ -1,0 +1,24 @@
+
+# Original raw data
+raw/
+*.xlsx
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log
