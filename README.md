@@ -119,3 +119,22 @@ the results can be interpreted and reviewed.
 Values are presented in pounds sterling (£), consistent with the UK retail
 context of the dataset. This assumption should be verified against the
 dataset documentation before formal reporting.
+
+
+## Project Visualisations
+
+### 1. Monthly Sales Trend
+This chart shows how sales changed over the period covered by the dataset.
+
+![Monthly Sales Trend](dashboard/charts/monthly_sales_trend.png)
+
+### 2. Top Merchandise Products
+This chart highlights the merchandise products with the highest sales values.
+
+![Top Merchandise Products](dashboard/charts/top_merchandise_products.png)
+
+### 3. International Sales by Country
+This chart compares sales across countries, helping show the importance of the UK market and the main international markets.
+
+![International Sales by Country](dashboard/charts/international_sales_by_country.png)
+
