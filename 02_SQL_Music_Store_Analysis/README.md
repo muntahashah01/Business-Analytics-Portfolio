@@ -50,8 +50,4 @@ This is a sample database rather than live commercial data. Invoice revenue is n
 
 ## Reproducibility
 
-Open the supplied SQLite database in DB Browser for SQLite and run the queries in `sql/music_store_analysis.sql` to reproduce the analysis.
-
-## Data Source
-
-Chinook sample database: https://github.com/lerocha/chinook-database
+Download the Chinook SQLite sample database from the [official Chinook repository](https://github.com/lerocha/chinook-database). Open the database in DB Browser for SQLite, then run the queries in `sql/music_store_analysis.sql` to reproduce the analysis. The database file is not included in this repository.
