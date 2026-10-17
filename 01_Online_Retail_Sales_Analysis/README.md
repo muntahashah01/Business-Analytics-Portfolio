@@ -81,6 +81,7 @@ The project includes three charts:
 - Top merchandise products by sales
 - Top international markets by sales
 
+
 ## Limitations
 
 - Approximately 25.18% of rows in the cleaned dataset have no CustomerID.
@@ -119,3 +120,19 @@ the results can be interpreted and reviewed.
 Values are presented in pounds sterling (£), consistent with the UK retail
 context of the dataset. This assumption should be verified against the
 dataset documentation before formal reporting.
+
+
+
+## Visualisations
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](dashboard/charts/monthly_sales_trend.png)
+
+### Top Merchandise Products
+
+![Top Merchandise Products](dashboard/charts/top_merchandise_products.png)
+
+### International Sales by Country
+
+![International Sales by Country](dashboard/charts/international_sales_by_country.png)
