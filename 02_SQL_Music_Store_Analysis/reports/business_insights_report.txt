@@ -1,0 +1,35 @@
+# SQL Music Store Business Analysis
+
+## Project Overview
+
+This project uses the Chinook sample database to explore customer distribution, invoice revenue and product sales using SQL and SQLite. The aim is to demonstrate how SQL can be used to extract, organise and interpret business data.
+
+## Analysis Performed
+
+- Customer distribution by country.
+- Total invoice revenue and invoice counts by country.
+- Top 10 customers ranked by total invoice value.
+- Top 10 tracks ranked by sales revenue.
+
+## Initial Findings
+
+**Country performance:** The United States ranked first in the country revenue query, with 523.06 in total invoice revenue across 91 invoices.
+
+**Customer spending:** Helena Holy appeared first in the top-customer results, with a total invoice value of 49.62.
+
+**Product performance:** The track *The Woman King* appeared first in the top-track results, with total revenue of 3.98.
+
+## SQL Skills Demonstrated
+
+The analysis uses SELECT statements, aggregate functions, JOIN operations, GROUP BY, ORDER BY and LIMIT to investigate related tables and summarise business performance.
+
+## Limitations
+
+The results are based on a sample music-store database and should not be treated as findings about a real retailer. The initial findings should be checked against the complete query outputs before drawing wider conclusions. Invoice revenue is not the same as profit because costs have not been deducted.
+
+## Tools
+
+- SQLite
+- DB Browser for SQLite
+- SQL
+- GitHub (for project publication)
