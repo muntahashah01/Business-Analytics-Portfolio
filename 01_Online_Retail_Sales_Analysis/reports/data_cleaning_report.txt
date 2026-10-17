@@ -1,0 +1,52 @@
+
+ONLINE RETAIL DATA CLEANING REPORT
+==================================
+
+Dataset source: UCI Online Retail
+Source file: Online Retail.xlsx
+
+1. ORIGINAL DATA
+Rows: 541,909
+Columns: 8
+
+2. CLEANING RULES APPLIED
+- Removed exact duplicate rows.
+- Excluded invoice numbers beginning with C.
+- Excluded rows with zero or negative quantities.
+- Excluded rows with zero or negative unit prices.
+- Retained missing CustomerID values for overall sales analysis.
+- Added Revenue = Quantity * UnitPrice.
+- Converted CustomerID to a nullable integer identifier.
+- Converted InvoiceNo and StockCode to text identifiers.
+
+3. ROW COUNTS
+                              Stage  Rows remaining  Rows removed at stage
+                   Original dataset          541909                    0.0
+    After removing exact duplicates          536641                 5268.0
+ After excluding cancelled invoices          527390                 9251.0
+After requiring positive quantities          526054                 1336.0
+                Final sales dataset          524878                 1176.0
+
+4. FINAL DATASET
+Rows: 524,878
+Columns: 9
+Missing CustomerID values: 132,186
+Missing descriptions: 0
+Non-positive quantities: 0
+Non-positive unit prices: 0
+Total line-level sales value: 10,642,110.80
+
+5. LIMITATIONS
+- Missing CustomerID values limit customer-level analysis.
+- Excluded transactions may include returns, adjustments, free items,
+  or other non-standard business activity.
+- The cleaned dataset represents positive-quantity, positive-price
+  sales lines under the rules above. It is not a complete accounting
+  ledger and should not automatically be interpreted as profit.
+- Exact duplicate removal assumes fully identical rows are duplicated
+  records; the original source file remains unchanged.
+
+6. OUTPUT FILES
+- data/processed/online_retail_cleaned.csv
+- reports/cleaning_summary.csv
+- reports/data_cleaning_report.txt

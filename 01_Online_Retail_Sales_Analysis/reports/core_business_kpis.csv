@@ -1,0 +1,8 @@
+KPI,Value
+Total sales value,10642110.8
+Total quantity sold,5572420.0
+Unique invoices,19960.0
+Unique product codes,3922.0
+Customers with an ID,4338.0
+Average order value,533.17
+Rows missing CustomerID (%),25.18

@@ -1,0 +1,6 @@
+Stage,Rows remaining,Rows removed at stage
+Original dataset,541909,0.0
+After removing exact duplicates,536641,5268.0
+After excluding cancelled invoices,527390,9251.0
+After requiring positive quantities,526054,1336.0
+Final sales dataset,524878,1176.0
